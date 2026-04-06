@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.playfair{
+    font-family: "Playfair Display", serif;
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
