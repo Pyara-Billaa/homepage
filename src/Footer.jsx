@@ -3,22 +3,26 @@ import { luffy2Img } from "./images/images";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-[#1ca9c9] place-items-center">
+      <footer className="
+      bg-[#1ca9c9] place-items-center
+      ">
         <div
-          className="w-full sm:relative sm:h-120 sm:w-150 md:max-lg:w-180
-        lg:w-235"
+          className="
+          w-full grid grid-cols-1
+          sm:h-120 sm:grid-cols-2 sm:place-items-center sm:pr-10 sm:pl-5
+          lg:pl-20 lg:pr-25"
         >
-          <div className="place-items-center 
-          sm:place-items-start sm:bg-none sm:ml-5 sm:absolute sm:bottom-5 
-          lg:right-1/2 lg:bottom-1/8 lg:left-0">
+          <div className="px-5 place-items-center 
+          sm:place-items-start sm:bg-none
+          ">
             <section className="place-items-center text-white sm:place-items-start">
-              <h1 className="playfair text-4xl text-center mb-6 mt-20 pt-7 sm:ml-9 md:ml-5
-              lg:ml-0">
+              <h1 className="playfair text-4xl text-center mb-6 pt-7">
                 Contact
               </h1>
 
-              <div className="w-70 sm:ml-10 md:w-100 md:ml-5 lg:ml-0">
-                <p className="roboto text-xl mb-5 sm:text-[1rem] sm:w-52 md:w-70">
+              <div className="mr-5 md:mr-25 2xl:mr-85">
+                <p className="roboto text-xl mb-5
+                sm:text-base">
                   Please get in touch if you think you can join the crew for
                   adventures!
                 </p>
@@ -63,9 +67,8 @@ export default function Footer() {
           </div>
           <img
             className="w-full 
-            sm:w-80 sm:absolute sm:top-1/8 sm:right-1 sm:h-90
-            md:right-12 
-            lg:w-120 lg:left-112"
+            sm:h-90
+            "
             src={luffy2Img}
             alt="Luffy Image"
           />

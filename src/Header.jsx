@@ -3,77 +3,74 @@ import { luffyImg } from "./images/images.js";
 export default function Header() {
   return (
     <>
-      <header className="place-items-center relative pt-4" style={{
-    background: "linear-gradient(160deg, rgba(28,169,201,1) 50%, white 50%)"
-  }}>
+      <header
+        className="place-items-center relative pt-4"
+        style={{
+          background:
+            "linear-gradient(160deg, rgba(28,169,201,1) 50%, whitesmoke 50%)",
+        }}
+      >
         <div
           className="
-        place-items-center
-        md:relative md:w-200
-        lg:grid lg:grid-cols-2 lg:w-228"
+        place-items-center"
         >
           <figure
             className="
-          relative text-center 
-          md:absolute md:max-lg:left-10
-          lg:left-0"
+          relative text-center p-5
+          md:float-start md:bottom-22 md:left-8 md:mr-7 md:h-66
+          lg:bottom-15 lg:left-19 lg:mr-18
+          "
           >
             <img
               className="
-              w-70 m-auto shadow-[10px_10px_10px_rgba(0,0,0,0.15)]
-              sm:max-md:w-100 max-sm:h-100 
-              md:h-90 md:w-90  md:mt-0
+              inline m-auto shadow-[10px_10px_10px_rgba(0,0,0,0.15)] h-100
+              md:w-90 md:h-85
               lg:w-95 lg:h-105"
               src={luffyImg}
               alt="luffy image"
             />
             <figcaption
               className="
-            w-50  absolute bottom-3 right-0 left-0 m-auto text-white text-5xl playfair text-shadow-[0px_2px_2px_rgba(0_0_0/0.4)] font-medium 
-            md:max-lg:top-5 md:max-lg:right-0 md:max-lg:left-75 md:w-89"
-            >
+            w-full px-5 absolute bottom-8 right-0 left-0 m-auto text-white text-5xl playfair text-shadow-[0px_2px_2px_rgba(0_0_0/0.4)] font-medium 
+            md:max-lg:top-5 md:max-lg:right-0 md:max-lg:left-80
+            lg:bottom-0 lg:top-95
+            ">
               Monkey D. Luffy
             </figcaption>
           </figure>
-
           <section
             className=" 
-          md:shadow-[3px_3px_5px_4px_rgba(0_0_0/0.1)] md:w-150 md:relative md:top-23 md:mb-50 md:h-105 md:max-lg:pt-20
-          lg:h-80 lg:left-95 lg:pt-7"
+          px-5
+          sm:px-10
+          md:shadow-[3px_3px_5px_4px_rgba(0_0_0/0.1)] md:bg-[#f5f5f5] md:mt-25 md:mx-25 md:pb-5 md:pt-15
+          lg:h-85 lg:pt-6"
           >
             <h1
               className="
             playfair text-4xl text-center mb-4 
-            md:max-lg:pl-81
             lg:text-start lg:pl-23"
             >
               About
             </h1>
             <p
               className="
-            w-70 text-start m-auto roboto 
-            sm:max-md:w-100
-            md:w-full md:pl-81 md:pr-5 
-            lg:pl-23"
+            text-start roboto  
+            "
             >
               Monkey D. Luffy, commonly known as "Straw Hat Luffy" or simply
               "Straw Hat", is the founder and captain of the Straw Hat Pirates.
               He pursues the legendary treasure of the late Gol D. Roger in
-              order to
-            </p>
-            <p className="
-            w-70 text-start m-auto roboto
-            sm:max-md:w-100 
-            md:w-full md:pl-8 md:pr-5 
-            lg:pl-23">
-              become the new Pirate King and reach a further, untold dream
-              (currently known to only his crew, family and closest friends). He
-              believes that being the Pirate King means having the most freedom
-              in the world.
+              order to become the new Pirate King and reach a further, untold
+              dream (currently known to only his crew, family and closest
+              friends). He believes that being the Pirate King means having the
+              most freedom in the world.
             </p>
 
-            <aside className="flex justify-center gap-4 mt-3 md:absolute md:right-5 md:bottom-5
-            lg:right-7">
+            <aside
+              className="
+            flex justify-center gap-4 mt-3 
+            md:justify-end md:items-end
+            ">
               <span>
                 <svg
                   className="w-10"

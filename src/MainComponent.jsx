@@ -10,26 +10,63 @@ import {
 export default function Main() {
   return (
     <>
-      <main className="md:place-items-center sm:mb-20">
-        <div className="md:max-lg:w-160">
-          <h1 className="playfair text-4xl text-center mb-6 mt-20 md:text-start md:max-lg:ml-4">
+      <main
+        className="
+      bg-[#f5f5f5] text-slate-800 px-7 py-5 pb-30
+      md:place-items-center md:px-25 md:pb-40
+      lg:py-15 lg:pb-30
+      "
+      >
+        <div>
+          <h1
+            className="
+          playfair text-4xl text-center mb-6 mt-20 
+          md:text-start md:max-lg:ml-4"
+          >
             My fav
           </h1>
-          <section className="md:grid md:grid-cols-2 md:gap-[20px_15px] lg:grid-cols-3 lg:gap-[0px_35px]">
-
-            <div className="place-items-center mb-10">
-              <figure className="w-70 h-120 sm:max-md:w-100 pb-10 shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
+          <section
+            className="
+          grid grid-cols-1 gap-10
+          sm:grid sm:grid-cols-2 sm:gap-[25px_15px]
+          md:gap-[50px_30px] 
+          lg:grid-cols-3 lg:gap-[45px_35px]"
+          >
+            <div className="max-w-160 place-items-center">
+              <figure
+                className="
+              h-140 bg-white shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]
+              "
+              >
                 <img
-                  className="w-70 sm:max-md:w-100 h-70 mb-2"
+                  className="
+                  h-80 w-full mb-2
+                  "
                   src={rocksImg}
                   alt="Rocks image"
                 />
-                <figcaption className="place-items-center">
-                  <div className="w-60 flex justify-between">
-                    <strong className="ml-4 playfair font-medium text-xl">
+                <figcaption
+                  className="
+                px-5
+                "
+                >
+                  <div
+                    className="
+                  flex justify-between px-7 py-2
+                  "
+                  >
+                    <strong
+                      className="
+                    playfair font-medium text-xl
+                    "
+                    >
                       Davy D. Xebec
                     </strong>
-                    <div className="flex gap-2">
+                    <div
+                      className="
+                    flex gap-4
+                    "
+                    >
                       <span>
                         <svg
                           className="w-7"
@@ -62,7 +99,11 @@ export default function Main() {
                       </span>
                     </div>
                   </div>
-                  <p className="w-58 mt-1 pr-3 roboto">
+                  <p
+                    className="
+                  p-3 roboto
+                  "
+                  >
                     Rocks was a man of extreme ambition who dreamed of becoming
                     the "King of the World."
                   </p>
@@ -70,19 +111,19 @@ export default function Main() {
               </figure>
             </div>
 
-            <div className="place-items-center mb-10">
-              <figure className="w-70 h-120 sm:max-md:w-100 pb-10 shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
+            <div className="max-w-160 place-items-center">
+              <figure className="h-140 bg-white shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
                 <img
-                  className="w-70 sm:max-md:w-100 h-70 mb-2"
+                  className="h-80 w-full mb-2"
                   src={zoroImg}
                   alt="zoro image"
                 />
-                <figcaption className="place-items-center">
-                  <div className="w-60 flex justify-between">
+                <figcaption className=" px-5">
+                  <div className="flex justify-between px-7 py-2">
                     <strong className="ml-4 playfair font-medium text-xl">
                       Roronoa Zoro
                     </strong>
-                    <div className="flex gap-2">
+                    <div className="flex gap-4">
                       <span>
                         <svg
                           className="w-7"
@@ -115,7 +156,7 @@ export default function Main() {
                       </span>
                     </div>
                   </div>
-                  <p className="w-58 mt-1 pr-3 roboto">
+                  <p className="p-3 roboto">
                     Roronoa Zoro, is the right-hand man and number two of his
                     crew's captain, Monkey D. Luffy.
                   </p>
@@ -123,19 +164,19 @@ export default function Main() {
               </figure>
             </div>
 
-            <div className="place-items-center mb-10">
-              <figure className="w-70 h-120 sm:max-md:w-100 pb-10 shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
+            <div className="max-w-160 place-items-center">
+              <figure className="h-140 bg-white shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
                 <img
-                  className="w-70 sm:max-md:w-100 h-70 mb-2"
+                  className="h-80 w-full mb-2"
                   src={namiImg}
                   alt="Nami image"
                 />
-                <figcaption className="place-items-center">
-                  <div className="w-60 flex justify-between">
+                <figcaption className=" px-5">
+                  <div className="flex justify-between px-7 py-2">
                     <strong className="ml-4 playfair font-medium text-xl">
                       Nami
                     </strong>
-                    <div className="flex gap-2">
+                    <div className="flex gap-4">
                       <span>
                         <svg
                           className="w-7"
@@ -168,7 +209,7 @@ export default function Main() {
                       </span>
                     </div>
                   </div>
-                  <p className="w-58 mt-1 pr-3 roboto">
+                  <p className="p-3 roboto">
                     "Cat Burglar" Nami is the navigator of the Straw Hat Pirates
                     and one of the Senior Officers of the Straw Hat Grand Fleet.
                   </p>
@@ -176,19 +217,19 @@ export default function Main() {
               </figure>
             </div>
 
-            <div className="place-items-center mb-10">
-              <figure className="w-70 h-120 sm:max-md:w-100 pb-10 shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
+            <div className="max-w-160 place-items-center">
+              <figure className="h-140 bg-white shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
                 <img
-                  className="w-70 sm:max-md:w-100 h-70 mb-2"
+                  className="h-80 w-full mb-2"
                   src={sanjiImg}
                   alt="Sanji image"
                 />
-                <figcaption className="place-items-center">
-                  <div className="w-60 flex justify-between">
+                <figcaption className=" px-5">
+                  <div className="flex justify-between px-7 py-2">
                     <strong className="ml-4 playfair font-medium text-xl">
                       Sanji
                     </strong>
-                    <div className="flex gap-2">
+                    <div className="flex gap-4">
                       <span>
                         <svg
                           className="w-7"
@@ -221,7 +262,7 @@ export default function Main() {
                       </span>
                     </div>
                   </div>
-                  <p className="w-58 mt-1 pr-3 roboto">
+                  <p className="p-3 roboto">
                     "Black Leg" Sanji is the cook of the Straw Hat Pirates and
                     one of the Senior Officers of the Straw Hat Grand Fleet.
                   </p>
@@ -229,19 +270,19 @@ export default function Main() {
               </figure>
             </div>
 
-            <div className="place-items-center mb-10">
-              <figure className="w-70 h-120 sm:max-md:w-100 pb-10 shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
+            <div className="max-w-160 place-items-center">
+              <figure className="h-140 bg-white shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
                 <img
-                  className="w-70 sm:max-md:w-100 h-70 mb-2"
+                  className="h-80 w-full mb-2"
                   src={robinImg}
                   alt="Robin image"
                 />
-                <figcaption className="place-items-center">
-                  <div className="w-60 flex justify-between">
+                <figcaption className=" px-5">
+                  <div className="flex justify-between px-7 py-2">
                     <strong className="ml-4 playfair font-medium text-xl">
                       Nico Robin
                     </strong>
-                    <div className="flex gap-2">
+                    <div className="flex gap-4">
                       <span>
                         <svg
                           className="w-7"
@@ -274,28 +315,27 @@ export default function Main() {
                       </span>
                     </div>
                   </div>
-                  <p className="w-58 mt-1 pr-3 roboto">
-                    Nico Robin, is the archaeologist of the Straw
-                    Hat Pirates and one of the Senior Officers of the Straw Hat
-                    Grand Fleet.
+                  <p className="p-3 roboto">
+                    Nico Robin, is the archaeologist of the Straw Hat Pirates
+                    and one of the Senior Officers of the Straw Hat Grand Fleet.
                   </p>
                 </figcaption>
               </figure>
             </div>
 
-            <div className="place-items-center mb-10">
-              <figure className="w-70 h-120 sm:max-md:w-100 pb-10 shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
+            <div className="max-w-160 place-items-center">
+              <figure className="h-140 bg-white shadow-[3px_3px_9px_4px_rgba(0,0,0,0.15)]">
                 <img
-                  className="w-70 sm:max-md:w-100 h-70 mb-2"
+                  className="h-80 w-full mb-2"
                   src={shanksImg}
                   alt="shanks image"
                 />
-                <figcaption className="place-items-center">
-                  <div className="w-60 flex justify-between">
+                <figcaption className=" px-5">
+                  <div className="flex justify-between px-7 py-2">
                     <strong className="ml-4 playfair font-medium text-xl">
                       Shanks
                     </strong>
-                    <div className="flex gap-2">
+                    <div className="flex gap-4">
                       <span>
                         <svg
                           className="w-7"
@@ -328,10 +368,9 @@ export default function Main() {
                       </span>
                     </div>
                   </div>
-                  <p className="w-58 mt-1 pr-3 roboto">
-                    "Red-Haired" Shanks, is
-                    the chief of the Red Hair Pirates and one of the Four
-                    Emperors that rule over the New World.
+                  <p className="p-3 roboto">
+                    "Red-Haired" Shanks, is the chief of the Red Hair Pirates
+                    and one of the Four Emperors that rule over the New World.
                   </p>
                 </figcaption>
               </figure>
